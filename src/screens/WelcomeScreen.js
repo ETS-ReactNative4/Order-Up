@@ -1,15 +1,12 @@
 import * as React from "react";
-import { BottomNavigation } from "react-native-paper";
 import {
   View,
   Text,
   TouchableOpacity,
-  ImageBackground,
   StatusBar,
   Image,
   Dimensions,
 } from "react-native";
-import { Headline, Button } from "react-native-paper";
 import Swiper from "react-native-swiper";
 
 const { width, height } = Dimensions.get("screen");
